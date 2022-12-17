@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.done {
+  text-decoration: line-through;
+}
+
+.button-add {
+  color: white;
+}
+
+.button-delete {
+  color: red;
+  font-weight: bold;
+  text-align: right;
+}
