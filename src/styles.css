@@ -11,7 +11,8 @@
 }
 
 .button-delete {
-  color: red;
+  color: red !important;
   font-weight: bold;
   text-align: right;
+  cursor: pointer;
 }
