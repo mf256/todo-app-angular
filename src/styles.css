@@ -13,8 +13,9 @@
 }
 
 .button-delete {
-  color: red !important;
+  /* color: red !important; */
   font-weight: bold;
-  text-align: right;
-  cursor: pointer;
+  /* text-align: right; */
+  /* cursor: pointer; */
+  padding: 3px 6px;
 }
