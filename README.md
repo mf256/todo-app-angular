@@ -1,27 +1,68 @@
-# TodoList
+# todo-app-angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Create Todo List application using Angular.
 
-## Development server
+Live demo: https://mf256.github.io/todo-app-angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of contents
 
-## Code scaffolding
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Status](#status)
+- [License](#license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## General info
 
-## Build
+Goal of project is to create simple Todo List application using Angular framework.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies
 
-## Running unit tests
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Bootswatch](https://bootswatch.com/)
+- [Prettier](https://prettier.io)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features
 
-## Running end-to-end tests
+- Add new item
+- Set item as done
+- Remove item
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Screenshots
 
-## Further help
+![Example screenshot 1](./doc/screen1.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Setup
+
+How to run this project.
+
+1. Install [Angular CLI](https://github.com/angular/angular-cli)
+
+2. Clone this repo
+
+3. To run, go to project folder and run
+
+`$ npm install`
+
+4. Now start dev server by running -
+
+`$ ng serve`
+
+5. visit - http://localhost:4200/
+
+To create production ready codes -
+
+`$ ng build`
+
+for more commands refer `package.json`
+
+## Status
+
+Project is finished.
+
+## License
+
+MIT

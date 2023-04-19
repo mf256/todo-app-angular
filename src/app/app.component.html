@@ -1,28 +1,11 @@
-<h1 class="text-center">{{ title }}</h1><br>
+<h1 class="text-center" id="app-title">{{ title }}</h1>
+<br />
 
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col col-lg-4">
-
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Enter new element" aria-label="Recipient's username"
-          aria-describedby="button-addon2" [(ngModel)]="inputValue" (keyup.enter)="add()">
-        <button class="btn btn-outline-secondary btn-primary button-add" type="button" id="button-addon2"
-          (click)="add()">Add</button>
-      </div>
-
-      <table class="table table-striped">
-        <tbody>
-          <tr *ngFor="let item  of items; let i = index;">
-            <th scope="row">{{ i+1 }}</th>
-            <td class="{{item.isCompleted ? 'done': ''}}" (click)="done(i)">{{ item.name}}</td>
-            <td class="text-end">
-              <button class="btn btn-danger button-delete" type="button" id="button-addon2" (click)="del(i)">X</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
+      <app-add-item></app-add-item>
+      <app-items-list></app-items-list>
     </div>
   </div>
 </div>
