@@ -3,15 +3,12 @@
     type="text"
     class="form-control"
     placeholder="Enter new element"
-    aria-label="Recipient's username"
-    aria-describedby="button-addon2"
     [(ngModel)]="inputValue"
     (keyup.enter)="add()"
   />
   <button
     class="btn btn-outline-secondary btn-primary button-add"
     type="button"
-    id="button-addon2"
     (click)="add()"
   >
     Add
