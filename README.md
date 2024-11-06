@@ -1,6 +1,6 @@
 # todo-app-angular
 
-Create Todo List application using Angular.
+Create a Todo List application using Angular framework.
 
 Live demo: https://mf256.github.io/todo-app-angular
 
@@ -16,7 +16,7 @@ Live demo: https://mf256.github.io/todo-app-angular
 
 ## General info
 
-Goal of project is to create simple Todo List application using Angular framework.
+The goal of this project is to build a simple Todo List application using the Angular framework.
 
 ## Technologies
 
